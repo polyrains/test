@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: About
+title: Test post, hahaha
 permalink: /about/
 ---
 
