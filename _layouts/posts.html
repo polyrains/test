@@ -1,7 +1,9 @@
-<head>
+<ead>
     <title>Test title!</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/index.css">
+    <link rel="stylesheet" href="/{{ site.baseurl }}/css/index.css">
 </head>
 <body>
     {{ content }}
+    Hi, this post in the markdown said: {{ page.title }}
+    <a href="{{ "/blah.html" | absolute_url }}">aaa</a>
 </body>
